@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div {
+  background-color:rgb(242, 245, 169);
+  width:100px; height:100px;
+  position: relative;
+  animation: myfadeIn 2s;  
+}
+
+
+@keyframes myfadeIn {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
